@@ -1,0 +1,52 @@
+body {
+    text-align: center;
+}
+
+marquee {
+    color: white;
+    background: blue;
+    height: 25px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.campus_mainDiv {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    border: 1px solid #c7c7c7;
+}
+
+.campus_mainDiv img {
+    width: 100%px;
+    height: 300px;
+}
+
+.travel_mainDiv hr {
+    width: 100%;
+}
+
+.travel_mainDiv p {
+    margin-left: 20px;
+}
+
+#enrichmentID {
+    padding-bottom: 10px;
+}
+
+.enrichment_head {
+    font-size: 20px;
+    padding: 6px 22px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    display: inline-block;
+}
+
+.enrichment_head i {
+    float: right;
+}
